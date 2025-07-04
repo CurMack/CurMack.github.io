@@ -1,115 +1,140 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{tang2024unified,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  abbr={CVPR 2024},
+  title={A unified diffusion framework for scene-aware human motion estimation from sparse signals},
+  author={Tang, Jiangnan and Wang, Jingya and Ji, Kaiyang and Xu, Lan and Yu, Jingyi and Shi, Ye},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  abstract={Estimating full-body human motion via sparse tracking
+    signals from head-mounted displays and hand controllers in
+    3D scenes is crucial to applications in AR/VR. One of the
+    biggest challenges to this task is the one-to-many mapping
+    from sparse observations to dense full-body motions, which
+    endowed inherent ambiguities. To help resolve this ambiguous problem, we introduce a new framework to combine rich
+    contextual information provided by scenes to benefit fullbody motion tracking from sparse observations. To estimate
+    plausible human motions given sparse tracking signals and
+    3D scenes, we develop S2Fusion, a unified framework fusing Scene and sparse Signals with a conditional difFusion
+    model. S2Fusion first extracts the spatial-temporal relations
+    residing in the sparse signals via a periodic autoencoder,
+    and then produces time-alignment feature embedding as
+    additional inputs. Subsequently, by drawing initial noisy
+    motion from a pre-trained prior, S2Fusion utilizes conditional diffusion to fuse scene geometry and sparse tracking signals to generate full-body scene-aware motions. The
+    sampling procedure of S2Fusion is further guided by a specially designed scene-penetration loss and phase-matching
+    loss, which effectively regularizes the motion of the lower body even in the absence of any tracking signals, making the generated motion much more plausible and coherent. Extensive experimental results have demonstrated that
+    our S2Fusion outperforms the state-of-the-art in terms of
+    estimation quality and smoothness.},
+  pages={21251--21262},
+  year={2024},
   selected={true},
-  inspirehep_id = {3255}
+  preview={s2fusion.png},
+  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_A_Unified_Diffusion_Framework_for_Scene-aware_Human_Motion_Estimation_from_CVPR_2024_paper.pdf},
+  code={https://github.com/jn-tang/S2Fusion},
+  video={https://www.youtube.com/watch?v=f0y2Dv2kJcY},
+  arxiv={https://arxiv.org/abs/2404.04890}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{deng2025human,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  abbr={arXiv 2503},
+  title={Human-Object Interaction via Automatically Designed VLM-Guided Motion Policy},
+  author={Deng, Zekai and Shi, Ye and Ji, Kaiyang and Xu, Lan and Huang, Shaoli and Wang, Jingya},
+  journal={arXiv preprint arXiv:2503.18349},
+  year={2025},
+  selected={true},
+  preview={vlm-rmd.png},
+  arxiv={https://arxiv.org/abs/2503.18349},
+  website={https://vlm-rmd.github.io/},
+  pdf={https://arxiv.org/pdf/2503.18349},
+  abstract={
+    Human-object interaction (HOI) synthesis is crucial for applications in animation,
+    simulation, and robotics. However, existing approaches either rely on expensive
+    motion capture data or require manual reward engineering, limiting their scalability
+    and generalizability. In this work, we introduce the first unified physics-based
+    HOI framework that leverages Vision-Language Models (VLMs) to enable longhorizon interactions with diverse object types—including static, dynamic, and
+    articulated objects. We introduce VLM-Guided Relative Movement Dynamics
+    (RMD), a fine-grained spatio-temporal bipartite representation that automatically
+    constructs goal states and reward functions for reinforcement learning. By encoding structured relationships between human and object parts, RMD enables VLMs
+    to generate semantically grounded, interaction-aware motion guidance without
+    manual reward tuning. To support our methodology, we present Interplay, a novel
+    dataset with thousands of long-horizon static and dynamic interaction plans. Extensive experiments demonstrate that our framework outperforms existing methods
+    in synthesizing natural, human-like motions across both simple single-task and
+    complex multi-task scenarios.
+  }
 }
 
-@book{przibram1967letters,
+@article{ji2025interaction,
+  abbr={ICCV 2025},
+  title={Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis},
+  author={Ji, Kaiyang and Shi, Ye and Jin, Zichen and Chen, Kangyi and Xu, Lan and Ma, Yuexin and Yu, Jingyi and Wang, Jingya},
+  year={2025},
+  selected={true},
+  abstract={
+    Real-time synthesis of physically plausible human interactions remains a critical challenge for immersive VR/AR systems and humanoid robotics. While existing methods demonstrate progress in kinematic motion generation, they often fail to address the fundamental tension between real-time responsiveness, physical feasibility, and safety requirements in dynamic human-machine interactions. We introduce Human-X, a novel framework designed to enable immersive and physically plausible human interactions across diverse entities, including human-avatar, human-humanoid, and human-robot systems. Unlike existing approaches that focus on post-hoc alignment or simplified physics, our method jointly predicts actions and reactions in real-time using an auto-regressive reaction diffusion planner, ensuring seamless synchronization and context-aware responses. To enhance physical realism and safety, we integrate an actor-aware motion tracking policy trained with reinforcement learning, which dynamically adapts to interaction partners’ movements while avoiding artifacts like foot sliding and penetration. Extensive experiments on the Inter-X and InterHuman datasets demonstrate significant improvements in motion quality, interaction continuity, and physical plausibility over state-of-the-art methods. Our framework is validated in real-world applications, including virtual reality interface for human-robot interaction, showcasing its potential for advancing human-robot collaboration.
+  },
+  preview={human-x.png},
+}
+
+@article{jiang2025arflow,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abbr={arXiv 2503},
+  title={ARFlow: Human Action-Reaction Flow Matching with Physical Guidance},
+  author={Jiang, Wentao and Wang, Jingya and Ji, Kaiyang and Jia, Baoxiong and Huang, Siyuan and Shi, Ye},
+  journal={arXiv preprint arXiv:2503.16973},
+  year={2025},
+  selected={false},
+  website={https://arflow2025.github.io/},
+  preview={arflow.png},
+  arxiv={https://arxiv.org/abs/2503.16973},
+  pdf={https://arxiv.org/pdf/2503.16973},
+  abstract={
+    Human action-reaction synthesis, a fundamental challenge in modeling causal
+    human interactions, plays a critical role in applications ranging from virtual reality
+    to social robotics. While diffusion-based models have demonstrated promising
+    performance, they exhibit two key limitations for interaction synthesis: reliance
+    on complex noise-to-reaction generators with intricate conditional mechanisms,
+    and frequent physical violations in generated motions. To address these issues,
+    we propose Action-Reaction Flow Matching (ARFlow), a novel framework that
+    establishes direct action-to-reaction mappings, eliminating the need for complex
+    conditional mechanisms. Our approach introduces a physical guidance mechanism specifically designed for Flow Matching (FM) that effectively prevents body
+    penetration artifacts during sampling. Moreover, we discover the bias of traditional flow matching sampling algorithm and employ a reprojection method to
+    revise the sampling direction of FM. To further enhance the reaction diversity,
+    we incorporate randomness into the sampling process. Extensive experiments
+    on NTU120, Chi3D and InterHuman datasets demonstrate that ARFlow not only
+    outperforms existing methods in terms of Fréchet Inception Distance and motion
+    diversity but also significantly reduces body collisions, as measured by our new
+    Intersection Volume and Intersection Frequency metrics. 
+  }
+}
+
+@article{wang2025dag,
+  abbr={Coming Soon},
+  title={DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding},
+  author={Wang*, Hanqing and Zhang*, Zhenhao and Ji*, Kaiyang and Liu, Mingyu and Yin, Wenti and Chen, Yuchao and Liu, Zhirui and Zhang, Hangxing},
+  year={2025},
+  selected={false},
+  abstract={
+  3d object affordance grounding aims to predict the touchable regions on a 3d object, which is crucial for human-object interaction (HOI), embodied perception, and robot learning. Recent advances tackle this problem via learning through demonstration images. However, these methods fail to capture the general affordance knowledge within the image, leading to poor generalization. To address this issue, we propose to use text-to-image diffusion models to extract the general affordance knowledge due to we find such models can generate semantically valid HOI images, which demonstrate that their internal representation space is highly correlated with real-world affordance concepts. Specifically, we introduce the DAG: a diffusion-based 3d affordance grounding framework, which leverages the frozen internal representations of the text-to-image diffusion model and unlocks affordance knowledge within the diffusion model to perform 3D affordance grounding. We further introduce an affordance block and a multi-source affordance decoder to endow 3D dense affordance prediction. Extensive experimental evaluations show that our model excels over well-established methods and exhibits open-world generalization.
+  },
+  preview={dag.png},
+  website={https://zhangzhh.cn/DAG_page/},
+  annotation={* Equal Contribution},
+}
+
+@article{fan2025one,
+  abbr={arXiv 2505},
+  title={One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion},
+  author={Fan*, Yahao and Gui*, Tianxiang and Ji*, Kaiyang and Ding, Shutong and Zhang, Chixuan and Gu, Jiayuan and Yu, Jingyi and Wang, Jingya and Shi, Ye},
+  journal={arXiv preprint arXiv:2505.18780},
+  year={2025},
+  selected={true},
+  pdf={https://arxiv.org/pdf/2505.18780},
+  arxiv={https://arxiv.org/abs/2505.18780},
+  website={https://dreampolicy.github.io/},
+  preview={dreampolicy.png},
+  abstract={
+    Humanoid locomotion faces a critical scalability challenge: traditional reinforcement learning (RL) methods require task-specific rewards and struggle to leverage growing datasets, even as more training terrains are introduced. We propose DreamPolicy, a unified framework that enables a single policy to master diverse terrains and generalize zero-shot to unseen scenarios by systematically integrating offline data and diffusion-driven motion synthesis. At its core, DreamPolicy introduces Humanoid Motion Imagery (HMI) - future state predictions synthesized through an autoregressive terrain-aware diffusion planner curated by aggregating rollouts from specialized policies across various distinct terrains. Unlike human motion datasets requiring laborious retargeting, our data directly captures humanoid kinematics, enabling the diffusion planner to synthesize "dreamed" trajectories that encode terrain-specific physical constraints. These trajectories act as dynamic objectives for our HMI-conditioned policy, bypassing manual reward engineering and enabling cross-terrain generalization. Crucially, DreamPolicy addresses the scalability limitations of prior methods: while traditional RL fails to exploit growing datasets, our framework scales seamlessly with more offline data. As the dataset expands, the diffusion prior learns richer locomotion skills, which the policy leverages to master new terrains without retraining. Experiments demonstrate that DreamPolicy achieves an average of 90% success rates in training environments and an average of 20% higher success on unseen terrains than the prevalent method. It also generalizes to perturbed and composite scenarios where prior approaches collapse. By unifying offline data, diffusion-based trajectory synthesis, and policy optimization, DreamPolicy overcomes the "one task, one policy" bottleneck, establishing a paradigm for scalable, data-driven humanoid control.
+  },
+  annotation={* Equal Contribution},
 }

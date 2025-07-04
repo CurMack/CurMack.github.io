@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-2-27
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our paper <a href="https://cvpr.thecvf.com/virtual/2024/poster/30808">S2Fusion</a> has been accepted by CVPR 2024! :sparkles:
