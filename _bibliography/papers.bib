@@ -6,7 +6,7 @@
   abbr={CVPR 2024},
   title={A unified diffusion framework for scene-aware human motion estimation from sparse signals},
   author={Tang, Jiangnan and Wang, Jingya and Ji, Kaiyang and Xu, Lan and Yu, Jingyi and Shi, Ye},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   abstract={Estimating full-body human motion via sparse tracking
     signals from head-mounted displays and hand controllers in
     3D scenes is crucial to applications in AR/VR. One of the
@@ -32,7 +32,8 @@
   pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_A_Unified_Diffusion_Framework_for_Scene-aware_Human_Motion_Estimation_from_CVPR_2024_paper.pdf},
   code={https://github.com/jn-tang/S2Fusion},
   video={https://www.youtube.com/watch?v=f0y2Dv2kJcY},
-  arxiv={2404.04890}
+  arxiv={2404.04890},
+  number = {1},
 }
 
 @article{deng2025human,
@@ -61,19 +62,22 @@
     dataset with thousands of long-horizon static and dynamic interaction plans. Extensive experiments demonstrate that our framework outperforms existing methods
     in synthesizing natural, human-like motions across both simple single-task and
     complex multi-task scenarios.
-  }
+  },
+  number = {2},
 }
 
 @article{ji2025interaction,
   abbr={ICCV 2025},
   title={Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis},
   author={Ji, Kaiyang and Shi, Ye and Jin, Zichen and Chen, Kangyi and Xu, Lan and Ma, Yuexin and Yu, Jingyi and Wang, Jingya},
+  journal={In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2025},
   selected={true},
   abstract={
     Real-time synthesis of physically plausible human interactions remains a critical challenge for immersive VR/AR systems and humanoid robotics. While existing methods demonstrate progress in kinematic motion generation, they often fail to address the fundamental tension between real-time responsiveness, physical feasibility, and safety requirements in dynamic human-machine interactions. We introduce Human-X, a novel framework designed to enable immersive and physically plausible human interactions across diverse entities, including human-avatar, human-humanoid, and human-robot systems. Unlike existing approaches that focus on post-hoc alignment or simplified physics, our method jointly predicts actions and reactions in real-time using an auto-regressive reaction diffusion planner, ensuring seamless synchronization and context-aware responses. To enhance physical realism and safety, we integrate an actor-aware motion tracking policy trained with reinforcement learning, which dynamically adapts to interaction partners’ movements while avoiding artifacts like foot sliding and penetration. Extensive experiments on the Inter-X and InterHuman datasets demonstrate significant improvements in motion quality, interaction continuity, and physical plausibility over state-of-the-art methods. Our framework is validated in real-world applications, including virtual reality interface for human-robot interaction, showcasing its potential for advancing human-robot collaboration.
   },
   preview={human-x.png},
+  number = {3},
 }
 
 @article{jiang2025arflow,
@@ -105,7 +109,8 @@
     outperforms existing methods in terms of Fréchet Inception Distance and motion
     diversity but also significantly reduces body collisions, as measured by our new
     Intersection Volume and Intersection Frequency metrics. 
-  }
+  },
+  number = {4},
 }
 
 @article{wang2025dag,
@@ -120,9 +125,11 @@
   preview={dag.png},
   website={https://zhangzhh.cn/DAG_page/},
   annotation={* Equal Contribution},
+  number = {5},
 }
 
 @article{fan2025one,
+  bibtex_show={true},
   abbr={arXiv 2505},
   title={One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion},
   author={Fan*, Yahao and Gui*, Tianxiang and Ji*, Kaiyang and Ding, Shutong and Zhang, Chixuan and Gu, Jiayuan and Yu, Jingyi and Wang, Jingya and Shi, Ye},
@@ -137,4 +144,5 @@
     Humanoid locomotion faces a critical scalability challenge: traditional reinforcement learning (RL) methods require task-specific rewards and struggle to leverage growing datasets, even as more training terrains are introduced. We propose DreamPolicy, a unified framework that enables a single policy to master diverse terrains and generalize zero-shot to unseen scenarios by systematically integrating offline data and diffusion-driven motion synthesis. At its core, DreamPolicy introduces Humanoid Motion Imagery (HMI) - future state predictions synthesized through an autoregressive terrain-aware diffusion planner curated by aggregating rollouts from specialized policies across various distinct terrains. Unlike human motion datasets requiring laborious retargeting, our data directly captures humanoid kinematics, enabling the diffusion planner to synthesize "dreamed" trajectories that encode terrain-specific physical constraints. These trajectories act as dynamic objectives for our HMI-conditioned policy, bypassing manual reward engineering and enabling cross-terrain generalization. Crucially, DreamPolicy addresses the scalability limitations of prior methods: while traditional RL fails to exploit growing datasets, our framework scales seamlessly with more offline data. As the dataset expands, the diffusion prior learns richer locomotion skills, which the policy leverages to master new terrains without retraining. Experiments demonstrate that DreamPolicy achieves an average of 90% success rates in training environments and an average of 20% higher success on unseen terrains than the prevalent method. It also generalizes to perturbed and composite scenarios where prior approaches collapse. By unifying offline data, diffusion-based trajectory synthesis, and policy optimization, DreamPolicy overcomes the "one task, one policy" bottleneck, establishing a paradigm for scalable, data-driven humanoid control.
   },
   annotation={* Equal Contribution},
+  number = {6},
 }
