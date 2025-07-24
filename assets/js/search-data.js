@@ -32,6 +32,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-human-x-has-been-accepted-by-iccv-2025-sparkles",
           title: 'Our paper Human-X has been accepted by ICCV 2025! :sparkles:',
           description: "",
+          section: "News",},{id: "news-human-x-has-been-accepted-by-iccv-2025-as-highlight-tada-tada-tada",
+          title: 'Human-X has been accepted by ICCV 2025 as Highlight! :tada::tada::tada:',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
