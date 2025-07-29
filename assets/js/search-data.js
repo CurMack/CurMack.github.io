@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-human-x-has-been-accepted-by-iccv-2025-as-highlight-tada-tada-tada",
           title: 'Human-X has been accepted by ICCV 2025 as Highlight! :tada::tada::tada:',
           description: "",
+          section: "News",},{id: "news-we-will-organize-iccv-2025-workshop-challenge-human-robot-scene-interaction-and-collaboration-call-for-candidates-raised-hands",
+          title: 'We will organize ICCV 2025 Workshop Challenge “Human-Robot-Scene Interaction and Collaboration”! Call for...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
