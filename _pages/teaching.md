@@ -22,7 +22,9 @@ nav_order: 6
 
  <li><strong> Conference Reviewer</strong></li>
   <ul>
-    <li>ICCV 2025</li>
+    <li>ICCV 2025 Workshop</li>
     <li>AAAI 2026</li>
+    <li>ICLR 2026</li>
+    <li>CVPR 2026</li>
   </ul>
 </ul>
