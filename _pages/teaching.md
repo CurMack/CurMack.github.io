@@ -25,6 +25,7 @@ nav_order: 6
     <li>ICCV 2025 Workshop</li>
     <li>AAAI 2026</li>
     <li>ICLR 2026</li>
+    <li>ICRA 2026</li>
     <li>CVPR 2026</li>
   </ul>
 </ul>

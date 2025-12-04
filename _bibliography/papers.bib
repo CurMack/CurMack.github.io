@@ -38,7 +38,7 @@
 
 @article{deng2025human,
   bibtex_show={true},
-  abbr={arXiv 2503},
+  abbr={preprint},
   title={Human-Object Interaction via Automatically Designed VLM-Guided Motion Policy},
   author={Deng, Zekai and Shi, Ye and Ji, Kaiyang and Xu, Lan and Huang, Shaoli and Wang, Jingya},
   journal={arXiv preprint arXiv:2503.18349},
@@ -66,12 +66,13 @@
   number = {2},
 }
 
-@article{ji2025towards,
+@inproceedings{ji2025towards,
   bibtex_show={true},
   abbr={ICCV 2025 Hightlight},
   title={Towards Immersive Human-X Interaction: A Real-Time Framework for Physically Plausible Motion Synthesis},
   author={Ji, Kaiyang and Shi, Ye and Jin, Zichen and Chen, Kangyi and Xu, Lan and Ma, Yuexin and Yu, Jingyi and Wang, Jingya},
-  journal={In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={10173--10183},
   year={2025},
   selected={true},
   arxiv={2508.02106},
@@ -88,12 +89,12 @@
 
 @article{jiang2025arflow,
   bibtex_show={true},
-  abbr={arXiv 2503},
+  abbr={preprint},
   title={ARFlow: Human Action-Reaction Flow Matching with Physical Guidance},
   author={Jiang, Wentao and Wang, Jingya and Ji, Kaiyang and Jia, Baoxiong and Huang, Siyuan and Shi, Ye},
   journal={arXiv preprint arXiv:2503.16973},
   year={2025},
-  selected={false},
+  selected={true},
   website={https://arflow2025.github.io/},
   preview={arflow.png},
   arxiv={2503.16973},
@@ -120,11 +121,15 @@
 }
 
 @article{wang2025dag,
-  abbr={Coming Soon},
+  bibtex_show={true},
+  abbr={preprint},
   title={DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding},
   author={Wang*, Hanqing and Zhang*, Zhenhao and Ji*, Kaiyang and Liu, Mingyu and Yin, Wenti and Chen, Yuchao and Liu, Zhirui and Zhang, Hangxing},
+  journal={arXiv preprint arXiv:2508.01651},
   year={2025},
   selected={false},
+  pdf={https://arxiv.org/pdf/2508.01651},
+  arxiv={2508.01651},
   abstract={
   3d object affordance grounding aims to predict the touchable regions on a 3d object, which is crucial for human-object interaction (HOI), embodied perception, and robot learning. Recent advances tackle this problem via learning through demonstration images. However, these methods fail to capture the general affordance knowledge within the image, leading to poor generalization. To address this issue, we propose to use text-to-image diffusion models to extract the general affordance knowledge due to we find such models can generate semantically valid HOI images, which demonstrate that their internal representation space is highly correlated with real-world affordance concepts. Specifically, we introduce the DAG: a diffusion-based 3d affordance grounding framework, which leverages the frozen internal representations of the text-to-image diffusion model and unlocks affordance knowledge within the diffusion model to perform 3D affordance grounding. We further introduce an affordance block and a multi-source affordance decoder to endow 3D dense affordance prediction. Extensive experimental evaluations show that our model excels over well-established methods and exhibits open-world generalization.
   },
@@ -136,7 +141,7 @@
 
 @article{fan2025one,
   bibtex_show={true},
-  abbr={arXiv 2505},
+  abbr={preprint},
   title={One Policy but Many Worlds: A Scalable Unified Policy for Versatile Humanoid Locomotion},
   author={Fan*, Yahao and Gui*, Tianxiang and Ji*, Kaiyang and Ding, Shutong and Zhang, Chixuan and Gu, Jiayuan and Yu, Jingyi and Wang, Jingya and Shi, Ye},
   journal={arXiv preprint arXiv:2505.18780},
@@ -151,4 +156,21 @@
   },
   annotation={* Equal Contribution},
   number = {6},
+}
+
+@article{liu2025commanding,
+  bibtex_show={true},
+  abbr={preprint},
+  title={Commanding Humanoid by Free-form Language: A Large Language Action Model with Unified Motion Vocabulary},
+  author={Liu*, Zhirui and Ji*, Kaiyang and Yang, Ke and Yu, Jingyi and Shi, Ye and Wang, Jingya},
+  journal={arXiv preprint arXiv:2511.22963},
+  year={2025},
+  selected={true},
+  arxiv={2511.22963},
+  pdf={https://arxiv.org/pdf/2511.22963},
+  website={https://humanoidlla.github.io/},
+  preview={humanoid-lla.png},
+  abstract={Enabling humanoid robots to follow free-form language commands is critical for seamless human-robot interaction, collaborative task execution, and general-purpose embodied intelligence. While recent advances have improved low-level humanoid locomotion and robot manipulation, language-conditioned whole-body control remains a significant challenge. Existing methods are often limited to simple instructions and sacrifice either motion diversity or physical plausibility. To address this, we introduce HumanoidLLA, a Large Language Action Model that maps expressive language commands to physically executable wholebody actions for humanoid robots. Our approach integrates three core components: a unified motion vocabulary that aligns human and humanoid motion primitives into a shared discrete space; a vocabulary-directed controller distilled from a privileged policy to ensure physical feasibility; and a physics-informed fine-tuning stage using reinforcement learning with dynamics-aware rewards to enhance robustness and stability. Extensive evaluations in simulation and on a real-world Unitree G1 humanoid show that Humanoid-LLA delivers strong language generalization while maintaining high physical fidelity, outperforming existing language-conditioned controllers in motion naturalness, stability, and execution success rate.},
+  annotation={* Equal Contribution},
+  number = {7},
 }
