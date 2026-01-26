@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-7-29
+date: 2026-1-27
 inline: true
 related_posts: false
 ---
 
-We have organized ICCV 2025 Workshop Challenge <a href="https://human-robot-scene.github.io/">"Human-Robot-Scene Interaction and Collaboration"</a>! :raised_hands:
+Our paper <a href="https://vlm-rmd.github.io/">VLM-RMD</a> has been accepted by ICLR 2026! :sparkles:

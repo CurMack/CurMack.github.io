@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-7-24
+date: 2025-7-29
 inline: true
 related_posts: false
 ---
 
-<a href="https://humanx-interaction.github.io/">Human-X</a> has been accepted by ICCV 2025 as **Highlight**! :tada::tada::tada:
+We have organized ICCV 2025 Workshop Challenge <a href="https://human-robot-scene.github.io/">"Human-Robot-Scene Interaction and Collaboration"</a>! :raised_hands:

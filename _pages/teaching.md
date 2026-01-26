@@ -27,5 +27,7 @@ nav_order: 6
     <li>ICLR 2026</li>
     <li>ICRA 2026</li>
     <li>CVPR 2026</li>
+    <li>ICML 2026</li>
+    <li>ECCV 2026</li>
   </ul>
 </ul>
