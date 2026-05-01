@@ -13,6 +13,7 @@ nav_order: 6
     <li>Intro To Programming (CS100), 2023 Spring, ShanghaiTech University, China</li>
     <li>Computer Vision I (CS172), 2024 Fall, ShanghaiTech University, China</li>
     <li>Computer Vision II (CS272), 2025 Spring, ShanghaiTech University, China</li>
+    <li>Computer Vision I (CS172), 2026 Spring, ShanghaiTech University, China</li>
   </ul>
 
   <li><strong>Workshop Organizer</strong></li>
@@ -27,7 +28,7 @@ nav_order: 6
     <li>ICLR 2026</li>
     <li>ICRA 2026</li>
     <li>CVPR 2026</li>
-    <li>ICML 2026</li>
     <li>ECCV 2026</li>
+    <li>NIPS 2026</li>
   </ul>
 </ul>
