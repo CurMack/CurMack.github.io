@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-vlm-rmd-has-been-accepted-by-iclr-2026-sparkles",
           title: 'Our paper VLM-RMD has been accepted by ICLR 2026! :sparkles:',
           description: "",
+          section: "News",},{id: "news-our-paper-discoforcing-has-been-accepted-by-icml-2026-sparkles",
+          title: 'Our paper DiscoForcing has been accepted by ICML 2026! :sparkles:',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
