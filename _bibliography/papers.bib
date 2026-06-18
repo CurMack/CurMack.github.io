@@ -123,18 +123,18 @@
   number = {4},
 }
 
-@article{wang2025dag,
+@inproceedings{wang2025dag,
   bibtex_show={true},
-  abbr={preprint},
-  title={DAG: Unleash the Potential of Diffusion Model for Open-Vocabulary 3D Affordance Grounding},
-  author={Wang*, Hanqing and Zhang*, Zhenhao and Ji*, Kaiyang and Liu, Mingyu and Yin, Wenti and Chen, Yuchao and Liu, Zhirui and Zhang, Hangxing},
-  journal={arXiv preprint arXiv:2508.01651},
-  year={2025},
+  abbr={ECCV 2026},
+  title={Diffusion Models are Open-World Affordance Learners: Leveraging Generative Priors for 3D Affordance Learning},
+  author={Wang*, Hanqing and Zhang*, Zhenhao and Ji*, Kaiyang and Liu, Mingyu and Yin, Wenti and Chen, Yuchao and Liu, Zhirui and Zeng, Xiangyu and Gui, Tianxiang and Zhang, Hangxing and Yuan, Jiahao and Cui, Zhiqing and Liu, Jiaxin and Ma, Zhiyuan and Xiong, Hui},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2026},
   selected={false},
   pdf={https://arxiv.org/pdf/2508.01651},
   arxiv={2508.01651},
   abstract={
-  3d object affordance grounding aims to predict the touchable regions on a 3d object, which is crucial for human-object interaction (HOI), embodied perception, and robot learning. Recent advances tackle this problem via learning through demonstration images. However, these methods fail to capture the general affordance knowledge within the image, leading to poor generalization. To address this issue, we propose to use text-to-image diffusion models to extract the general affordance knowledge due to we find such models can generate semantically valid HOI images, which demonstrate that their internal representation space is highly correlated with real-world affordance concepts. Specifically, we introduce the DAG: a diffusion-based 3d affordance grounding framework, which leverages the frozen internal representations of the text-to-image diffusion model and unlocks affordance knowledge within the diffusion model to perform 3D affordance grounding. We further introduce an affordance block and a multi-source affordance decoder to endow 3D dense affordance prediction. Extensive experimental evaluations show that our model excels over well-established methods and exhibits open-world generalization.
+  3D affordance grounding aims to understand how diverse objects can be manipulated, making it a cornerstone of embodied interaction. However, prior works struggle to generalize to out-of-distribution, open-world scenarios, leaving a critical gap between limited dataset performance and real-world application needs. Inspired by the saying: ``What I can not create, I do not understand, we find generative models can generate semantically valid HOI images, which indicates inherent encoding of affordance concepts. Building on this insight, we propose DAG, the first innovative diffusion-based 3D affordance grounding framework that extracts general affordance knowledge from text-to-image diffusion models for 3D affordance prediction. Specifically, we extract the affordance priors from a diffusion model to encode HOI priors, and design an affordance block with a multi-source affordance decoder for dense 3D affordance prediction. Extensive experiments show that DAG consistently outperforms state-of-the-art methods and exhibits strong open-world generalization, even in the challenging one-shot setting.
   },
   preview={dag.png},
   website={https://zhangzhh.cn/DAG_page/},
@@ -178,7 +178,7 @@
   number = {7},
 }
 
-@inproceedings{ ji2026discoforcing,
+@inproceedings{ji2026discoforcing,
 bibtex_show={true},
 abbr={ICML 2026},
 title={DiscoForcing: A Unified Framework for Real-Time Audio-Driven Character Control with Diffusion Forcing},
