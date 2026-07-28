@@ -21,6 +21,13 @@ nav_order: 6
     <li>ICCV 2025 Workshop <a href="https://human-robot-scene.github.io/">"Human-Robot-Scene Interaction and Collaboration"</a>, Oct 20th, 2025, Honolulu, Hawai'i</li>
   </ul>
 
+  <li><strong>Conference In-Person Attendance</strong></li>
+  <ul>
+    <li><a href="https://iccv.thecvf.com/Conferences/2025">ICCV 2025</a>, October 19–23, 2025, Hawaii Convention Center, Honolulu, Hawai'i, USA</li>
+    <li><a href="http://china3dv.csig.org.cn/2026/">China3DV 2026</a>, April 17–19, 2026, Hangzhou International Expo Center, Hangzhou, Zhejiang, China</li>
+    <li><a href="https://icml.cc/Conferences/2026">ICML 2026</a>, July 6–11, 2026, COEX Convention &amp; Exhibition Center, Seoul, South Korea</li>
+  </ul>
+
  <li><strong> Conference Reviewer</strong></li>
   <ul>
     <li>ICCV 2025 Workshop</li>

@@ -1,6 +1,17 @@
 ---
 ---
-<div class="row">
+{% assign first_or_cofirst = false %}
+{% for author in entry.author_array %}
+  {% assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' %}
+  {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
+    {% if forloop.first or author.last contains '*' or author.last contains '∗' %}
+      {% assign first_or_cofirst = true %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<div class="row{% if first_or_cofirst %} first-or-cofirst-paper{% endif %}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-3 abbr">
       {%- if entry.abbr -%}
