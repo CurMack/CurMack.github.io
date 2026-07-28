@@ -38,4 +38,8 @@ My research interest broadly lies in computer vision, machine learning, and robo
 
 I am looking for collaborators and friends. Feel free to contact me if you are interested in these fantasic topics!
 
+<span style="display: inline-block; max-width: 65%; box-sizing: border-box; margin: 0.5rem 0 1rem; padding: 0.45rem 0.75rem; border-left: 4px solid #dc3545; background-color: #fff1f1; color: #b22222; font-weight: 700;">
+  <strong>Note:</strong> I am actively seeking Fall 2027 CS Ph.D. opportunities in Embodied AI, Generative Models and Human-Centered 3D Vision.
+</span>
+
 [Email](jiky2024@shanghaitech.edu.cn) / [Google Scholar](https://scholar.google.com/citations?user=PyTLiM8AAAAJ&hl=en) / [Github](https://github.com/CurMack)
