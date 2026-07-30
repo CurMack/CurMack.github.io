@@ -763,15 +763,16 @@ footer.sticky-bottom {
           font-weight: 700;
           line-height: 1;
           letter-spacing: 0.025em;
-          border: 1px solid #e6ae32 !important;
+          border: 2px solid #dc3545 !important;
           border-radius: 999px;
-          color: #805400 !important;
-          background: #fff5d6;
+          color: #000 !important;
+          background: #fff1f1;
 
           &::before {
             content: "★";
             margin-right: 4px;
             color: #d99800;
+            text-shadow: 0 0 4px rgba(217, 152, 0, 0.8), 0 0 8px rgba(255, 204, 0, 0.55);
           }
         }
 
