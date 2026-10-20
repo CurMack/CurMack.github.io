@@ -28,7 +28,7 @@ nav_order: 6
     <li><a href="https://icml.cc/Conferences/2026">ICML 2026</a>, July 6–11, 2026, COEX Convention &amp; Exhibition Center, Seoul, South Korea</li>
   </ul>
 
- <li><strong> Conference Reviewer</strong></li>
+ <li><strong>Conference Reviewer</strong></li>
   <ul>
     <li>ICCV 2025 Workshop</li>
     <li>AAAI 2026, 2027</li>
@@ -37,5 +37,12 @@ nav_order: 6
     <li>CVPR 2026</li>
     <li>ECCV 2026</li>
     <li>NeurIPS 2026</li>
+  </ul>
+
+  <li><strong>Awards</strong></li>
+  <ul>
+    <li>National Scholarship, 2026</li>
+    <li>Top Reviewer, NeurIPS, 2026</li>
+    <li>Outstanding Student, ShanghaiTech University, 2025</li>
   </ul>
 </ul>
