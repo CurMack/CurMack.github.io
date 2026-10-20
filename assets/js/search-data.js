@@ -74,7 +74,7 @@ ninja.data = [{
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/orcust66399", "_blank");
+          window.open("https://twitter.com/KysonJi", "_blank");
         },
       },{
         id: 'social-zotero',
